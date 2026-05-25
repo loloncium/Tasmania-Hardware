@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Maison Atelier</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="section-wrapper">
+      <div class="header-content">
+        <a href="index.html" class="brand-logo">Maison Atelier</a>
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <nav>
+          <a href="about.html">About</a>
+          <div class="nav-item-shop">
+            <a href="shop.html">Shop</a>
+            <div class="megamenu">
+              <div class="megamenu-grid">
+                <a href="shop.html?category=tiles" class="megamenu-item">
+                  <h4>Tiles & Surfaces</h4>
+                  <p>Large-format porcelain, marble and sculptural wall finishes.</p>
+                </a>
+                <a href="services.html" class="megamenu-item">
+                  <h4>Kitchens</h4>
+                  <p>Bespoke joinery, premium hardware and architectural cabinetry.</p>
+                </a>
+                <a href="services.html" class="megamenu-item">
+                  <h4>Bathrooms</h4>
+                  <p>Spa-inspired fixtures, seamless stone and warm materials.</p>
+                </a>
+                <a href="shop.html?category=furniture" class="megamenu-item">
+                  <h4>Furniture</h4>
+                  <p>Contemporary tables, seating and luxury living collections.</p>
+                </a>
+              </div>
+              <div class="megamenu-image">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Interior design">
+              </div>
+            </div>
+          </div>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="blog.html">Blog</a>
+          <a href="trade.html">Trade</a>
+        </nav>
+        
+        <div class="flex gap-4">
+          <button class="btn btn-tertiary" data-wishlist-toggle aria-label="Wishlist">❤️</button>
+          <button class="btn btn-tertiary" data-cart-toggle aria-label="Shopping cart">🛍️</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="drawer-overlay"></div>
+  <div class="drawer" data-cart-drawer>
+    <button class="drawer-close" aria-label="Close">✕</button>
+    <div style="padding: 3rem 1.5rem;"><h2>Shopping Cart</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">Your cart is empty</p></div>
+  </div>
+  <div class="drawer" data-wishlist-drawer>
+    <button class="drawer-close" aria-label="Close">✕</button>
+    <div style="padding: 3rem 1.5rem;"><h2>Wishlist</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">No items</p></div>
+  </div>
+  
+  <main>
+    <section class="py-20">
+      <div class="section-wrapper">
+        <h1>Shop Collections</h1>
+        <p style="margin-top: 1.5rem; max-width: 42rem; color: rgba(217, 210, 195, 0.8);">
+          Browse our curated selection of premium materials and finishes for luxury interiors.
+        </p>
+        
+        <div style="margin-top: 3rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="shop.html?category=all" class="btn btn-secondary">All Products</a>
+          <a href="shop.html?category=tiles" class="btn btn-secondary">Tiles & Surfaces</a>
+          <a href="shop.html?category=bathrooms" class="btn btn-secondary">Bathrooms</a>
+          <a href="shop.html?category=furniture" class="btn btn-secondary">Furniture</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="collections-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Tiles</span>
+              <h3 class="product-title">Margaux Slate Porcelain</h3>
+              <p class="product-price">$249 / m²</p>
+              <p class="product-description">Large-format slab with refined slate surface and warm grey undertones.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Bathroom</span>
+              <h3 class="product-title">Noir Brassware Set</h3>
+              <p class="product-price">$1,980</p>
+              <p class="product-description">Low-profile matte black fixtures with tactile lever and sculpted spout.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Surfaces</span>
+              <h3 class="product-title">Plaster Velvet Wall</h3>
+              <p class="product-price">$165 / m²</p>
+              <p class="product-description">Soft tactile plaster with suede-like surface and subtle colour depth.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1465098695138-de0a65e2a87f?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Furniture</span>
+              <h3 class="product-title">Atelier Dining Table</h3>
+              <p class="product-price">$5,200</p>
+              <p class="product-description">Solid oak dining table with smoke finish and slender brass joinery.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1598300057460-4116e7cc56e1?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Surfaces</span>
+              <h3 class="product-title">Limestone Classic</h3>
+              <p class="product-price">$195 / m²</p>
+              <p class="product-description">Premium limestone with natural veining and warm cream tones.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Bathroom</span>
+              <h3 class="product-title">Ceramic Basin Collection</h3>
+              <p class="product-price">$680</p>
+              <p class="product-description">Hand-crafted ceramic basins with sculptural forms and matte finishes.</p>
+              <a href="#" class="btn btn-tertiary" style="margin-top: 1rem;">View Details →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="section-wrapper">
+      <div class="footer-content">
+        <div class="footer-main">
+          <p class="hero-label">Maison Atelier</p>
+          <h2>Luxury interiors, material direction and trade support for visionary spaces.</h2>
+          <p>Founded to deliver considered interiors for residential architecture, boutique hospitality and high-end product environments.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>hello@maisonatelier.design</p>
+            <p>+61 2 8000 1234</p>
+          </div>
+          <div class="footer-section">
+            <h3>Navigate</h3>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="projects.html">Projects</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="trade.html">Trade Program</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Maison Atelier. All rights reserved.</p>
+        <p>Designed for premium interiors, materials and architectural finishes.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="../js/main.js"></script>
+</body>
+</html>

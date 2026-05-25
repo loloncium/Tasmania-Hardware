@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Maison Atelier</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="section-wrapper">
+      <div class="header-content">
+        <a href="index.html" class="brand-logo">Maison Atelier</a>
+        <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <nav>
+          <a href="about.html">About</a>
+          <div class="nav-item-shop">
+            <a href="shop.html">Shop</a>
+            <div class="megamenu">
+              <div class="megamenu-grid">
+                <a href="shop.html?category=tiles" class="megamenu-item"><h4>Tiles & Surfaces</h4><p>Large-format porcelain, marble and sculptural wall finishes.</p></a>
+                <a href="services.html" class="megamenu-item"><h4>Kitchens</h4><p>Bespoke joinery, premium hardware and architectural cabinetry.</p></a>
+                <a href="services.html" class="megamenu-item"><h4>Bathrooms</h4><p>Spa-inspired fixtures, seamless stone and warm materials.</p></a>
+                <a href="shop.html?category=furniture" class="megamenu-item"><h4>Furniture</h4><p>Contemporary tables, seating and luxury living collections.</p></a>
+              </div>
+              <div class="megamenu-image"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Interior design"></div>
+            </div>
+          </div>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="blog.html">Blog</a>
+          <a href="trade.html">Trade</a>
+        </nav>
+        <div class="flex gap-4">
+          <button class="btn btn-tertiary" data-wishlist-toggle aria-label="Wishlist">❤️</button>
+          <button class="btn btn-tertiary" data-cart-toggle aria-label="Shopping cart">🛍️</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="drawer-overlay"></div>
+  <div class="drawer" data-cart-drawer><button class="drawer-close">✕</button><div style="padding: 3rem 1.5rem;"><h2>Shopping Cart</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">Your cart is empty</p></div></div>
+  <div class="drawer" data-wishlist-drawer><button class="drawer-close">✕</button><div style="padding: 3rem 1.5rem;"><h2>Wishlist</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">No items</p></div></div>
+  
+  <main>
+    <section class="py-20">
+      <div class="section-wrapper">
+        <h1>Journal</h1>
+        <p style="margin-top: 1.5rem; max-width: 42rem; color: rgba(217, 210, 195, 0.8);">
+          Insights, trends and stories from the world of luxury interiors and design.
+        </p>
+      </div>
+    </section>
+    
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="grid gap-8 grid-cols-3">
+          <a href="#" style="text-decoration: none;">
+            <div style="border-radius: 1.5rem; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1);">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Article" style="width: 100%; height: 280px; object-fit: cover;">
+            </div>
+            <h3 style="color: white; margin-top: 1.5rem;">The Art of Material Selection</h3>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.6);">March 15, 2026</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">How to choose the right materials for your luxury interiors.</p>
+          </a>
+          
+          <a href="#" style="text-decoration: none;">
+            <div style="border-radius: 1.5rem; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1);">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Article" style="width: 100%; height: 280px; object-fit: cover;">
+            </div>
+            <h3 style="color: white; margin-top: 1.5rem;">Timeless Finishes for Modern Spaces</h3>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.6);">March 8, 2026</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">Why classic materials continue to define luxury design.</p>
+          </a>
+          
+          <a href="#" style="text-decoration: none;">
+            <div style="border-radius: 1.5rem; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1);">
+              <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80" alt="Article" style="width: 100%; height: 280px; object-fit: cover;">
+            </div>
+            <h3 style="color: white; margin-top: 1.5rem;">Brassware Trends in 2026</h3>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.6);">February 28, 2026</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">From matte black to warm brass: fixture finishes defining the year.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="section-wrapper">
+      <div class="footer-content">
+        <div class="footer-main">
+          <p class="hero-label">Maison Atelier</p>
+          <h2>Luxury interiors, material direction and trade support for visionary spaces.</h2>
+          <p>Founded to deliver considered interiors for residential architecture, boutique hospitality and high-end product environments.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>hello@maisonatelier.design</p>
+            <p>+61 2 8000 1234</p>
+          </div>
+          <div class="footer-section">
+            <h3>Navigate</h3>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="projects.html">Projects</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="trade.html">Trade Program</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Maison Atelier. All rights reserved.</p>
+        <p>Designed for premium interiors, materials and architectural finishes.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="../js/main.js"></script>
+</body>
+</html>

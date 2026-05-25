@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Maison Atelier</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="section-wrapper">
+      <div class="header-content">
+        <a href="index.html" class="brand-logo">Maison Atelier</a>
+        <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <nav>
+          <a href="about.html">About</a>
+          <div class="nav-item-shop">
+            <a href="shop.html">Shop</a>
+            <div class="megamenu">
+              <div class="megamenu-grid">
+                <a href="shop.html?category=tiles" class="megamenu-item"><h4>Tiles & Surfaces</h4><p>Large-format porcelain, marble and sculptural wall finishes.</p></a>
+                <a href="services.html" class="megamenu-item"><h4>Kitchens</h4><p>Bespoke joinery, premium hardware and architectural cabinetry.</p></a>
+                <a href="services.html" class="megamenu-item"><h4>Bathrooms</h4><p>Spa-inspired fixtures, seamless stone and warm materials.</p></a>
+                <a href="shop.html?category=furniture" class="megamenu-item"><h4>Furniture</h4><p>Contemporary tables, seating and luxury living collections.</p></a>
+              </div>
+              <div class="megamenu-image"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Interior design"></div>
+            </div>
+          </div>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="blog.html">Blog</a>
+          <a href="trade.html">Trade</a>
+        </nav>
+        <div class="flex gap-4">
+          <button class="btn btn-tertiary" data-wishlist-toggle aria-label="Wishlist">❤️</button>
+          <button class="btn btn-tertiary" data-cart-toggle aria-label="Shopping cart">🛍️</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="drawer-overlay"></div>
+  <div class="drawer" data-cart-drawer><button class="drawer-close">✕</button><div style="padding: 3rem 1.5rem;"><h2>Shopping Cart</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">Your cart is empty</p></div></div>
+  <div class="drawer" data-wishlist-drawer><button class="drawer-close">✕</button><div style="padding: 3rem 1.5rem;"><h2>Wishlist</h2><p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">No items</p></div></div>
+  
+  <main>
+    <section class="py-20">
+      <div class="section-wrapper">
+        <h1>Get In Touch</h1>
+        <p style="margin-top: 1.5rem; max-width: 42rem; color: rgba(217, 210, 195, 0.8);">
+          Have questions about our products or services? We'd love to hear from you. Reach out and we'll respond within 24 hours.
+        </p>
+      </div>
+    </section>
+    
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="grid grid-cols-2 gap-12">
+          <div>
+            <h2 style="margin-bottom: 2rem;">Contact Information</h2>
+            
+            <div style="margin-bottom: 2.5rem;">
+              <h3 style="color: white; margin-bottom: 0.75rem;">Email</h3>
+              <a href="mailto:hello@maisonatelier.design" style="color: var(--brand-gold); text-decoration: none; font-size: 0.95rem;">hello@maisonatelier.design</a>
+            </div>
+            
+            <div style="margin-bottom: 2.5rem;">
+              <h3 style="color: white; margin-bottom: 0.75rem;">Phone</h3>
+              <a href="tel:+61280001234" style="color: var(--brand-gold); text-decoration: none; font-size: 0.95rem;">+61 2 8000 1234</a>
+            </div>
+            
+            <div style="margin-bottom: 2.5rem;">
+              <h3 style="color: white; margin-bottom: 0.75rem;">Location</h3>
+              <p style="color: rgba(217, 210, 195, 0.7); font-size: 0.95rem;">
+                Level 1, 123 Design Street<br>
+                Sydney NSW 2000<br>
+                Australia
+              </p>
+            </div>
+            
+            <div>
+              <h3 style="color: white; margin-bottom: 1rem;">Hours</h3>
+              <p style="color: rgba(217, 210, 195, 0.7); font-size: 0.875rem;">
+                Monday – Friday: 9:00 AM – 5:00 PM<br>
+                Saturday: 10:00 AM – 2:00 PM<br>
+                Sunday: Closed
+              </p>
+            </div>
+          </div>
+          
+          <div>
+            <form style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <div>
+                <label style="display: block; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.24em; color: rgba(217, 210, 195, 0.8); margin-bottom: 0.5rem;">Name</label>
+                <input type="text" placeholder="Your name" required style="width: 100%; padding: 0.875rem 1.25rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: white; font-size: 0.875rem;">
+              </div>
+              
+              <div>
+                <label style="display: block; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.24em; color: rgba(217, 210, 195, 0.8); margin-bottom: 0.5rem;">Email</label>
+                <input type="email" placeholder="Your email" required style="width: 100%; padding: 0.875rem 1.25rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: white; font-size: 0.875rem;">
+              </div>
+              
+              <div>
+                <label style="display: block; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.24em; color: rgba(217, 210, 195, 0.8); margin-bottom: 0.5rem;">Subject</label>
+                <input type="text" placeholder="Message subject" required style="width: 100%; padding: 0.875rem 1.25rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: white; font-size: 0.875rem;">
+              </div>
+              
+              <div>
+                <label style="display: block; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.24em; color: rgba(217, 210, 195, 0.8); margin-bottom: 0.5rem;">Message</label>
+                <textarea placeholder="Your message" rows="5" required style="width: 100%; padding: 0.875rem 1.25rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: white; font-size: 0.875rem; font-family: inherit; resize: none;"></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="section-wrapper">
+      <div class="footer-content">
+        <div class="footer-main">
+          <p class="hero-label">Maison Atelier</p>
+          <h2>Luxury interiors, material direction and trade support for visionary spaces.</h2>
+          <p>Founded to deliver considered interiors for residential architecture, boutique hospitality and high-end product environments.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>hello@maisonatelier.design</p>
+            <p>+61 2 8000 1234</p>
+          </div>
+          <div class="footer-section">
+            <h3>Navigate</h3>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="projects.html">Projects</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="trade.html">Trade Program</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Maison Atelier. All rights reserved.</p>
+        <p>Designed for premium interiors, materials and architectural finishes.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="../js/main.js"></script>
+</body>
+</html>

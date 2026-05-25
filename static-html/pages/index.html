@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Atelier | Luxury Interiors & Finishes</title>
+  <meta name="description" content="A premium interiors destination for tiles, kitchens, bathrooms and architectural finishes.">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header>
+    <div class="section-wrapper">
+      <div class="header-content">
+        <a href="index.html" class="brand-logo">Maison Atelier</a>
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <nav>
+          <a href="about.html">About</a>
+          
+          <div class="nav-item-shop">
+            <a href="shop.html">Shop</a>
+            
+            <div class="megamenu">
+              <div class="megamenu-grid">
+                <a href="shop.html?category=tiles" class="megamenu-item">
+                  <h4>Tiles & Surfaces</h4>
+                  <p>Large-format porcelain, marble and sculptural wall finishes.</p>
+                </a>
+                
+                <a href="services.html" class="megamenu-item">
+                  <h4>Kitchens</h4>
+                  <p>Bespoke joinery, premium hardware and architectural cabinetry.</p>
+                </a>
+                
+                <a href="services.html" class="megamenu-item">
+                  <h4>Bathrooms</h4>
+                  <p>Spa-inspired fixtures, seamless stone and warm materials.</p>
+                </a>
+                
+                <a href="shop.html?category=furniture" class="megamenu-item">
+                  <h4>Furniture</h4>
+                  <p>Contemporary tables, seating and luxury living collections.</p>
+                </a>
+              </div>
+              
+              <div class="megamenu-image">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Interior design showcase">
+              </div>
+            </div>
+          </div>
+          
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="blog.html">Blog</a>
+          <a href="trade.html">Trade</a>
+        </nav>
+        
+        <div class="flex gap-4">
+          <button class="btn btn-tertiary" data-wishlist-toggle aria-label="Wishlist">
+            ❤️
+          </button>
+          <button class="btn btn-tertiary" data-cart-toggle aria-label="Shopping cart">
+            🛍️
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Drawer Overlay -->
+  <div class="drawer-overlay"></div>
+  
+  <!-- Cart Drawer -->
+  <div class="drawer" data-cart-drawer>
+    <button class="drawer-close" aria-label="Close cart">✕</button>
+    <div style="padding: 3rem 1.5rem;">
+      <h2>Shopping Cart</h2>
+      <p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">Your cart is empty</p>
+    </div>
+  </div>
+  
+  <!-- Wishlist Drawer -->
+  <div class="drawer" data-wishlist-drawer>
+    <button class="drawer-close" aria-label="Close wishlist">✕</button>
+    <div style="padding: 3rem 1.5rem;">
+      <h2>Wishlist</h2>
+      <p style="margin-top: 2rem; color: rgba(217, 210, 195, 0.6);">No items in your wishlist yet</p>
+    </div>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="section-wrapper">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="hero-label">Luxury interiors & architectural finishes</span>
+            <h1 class="hero-title">Crafted spaces for discerning homes and refined living.</h1>
+            <p class="hero-description">
+              Curated collections of premium materials, bespoke fixtures and architectural surfaces for contemporary residential and hospitality projects.
+            </p>
+            <a href="shop.html" class="btn btn-primary">Start Exploring</a>
+          </div>
+          
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Hero image">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Featured Categories -->
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="featured-categories">
+          <div class="featured-categories-header">
+            <p class="hero-label">Featured categories</p>
+            <h2>A product catalogue that feels editorial and effortless.</h2>
+            <p>Browse premium materials and install-ready collections designed for sophisticated interiors and timeless living.</p>
+          </div>
+          
+          <div class="category-card">
+            <h3>Tiles & Surfaces</h3>
+            <p>Monolithic stone, porcelain and marble finishes.</p>
+            <a href="shop.html?category=tiles">View collection →</a>
+          </div>
+          
+          <div class="category-card">
+            <h3>Kitchens</h3>
+            <p>Bespoke joinery, premium hardware and elegant silhouettes.</p>
+            <a href="services.html">View collection →</a>
+          </div>
+          
+          <div class="category-card">
+            <h3>Bathrooms</h3>
+            <p>Spa-inspired baths, luxurious brassware and sculptural details.</p>
+            <a href="services.html">View collection →</a>
+          </div>
+          
+          <div class="category-card">
+            <h3>Furniture</h3>
+            <p>Contemporary artisan furniture for residential and hospitality.</p>
+            <a href="shop.html?category=furniture">View collection →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Collections Grid -->
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="collections-grid">
+          <a href="shop.html" class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Featured</span>
+              <h3 class="product-title">Margaux Slate Porcelain</h3>
+              <p class="product-price">$249 / m²</p>
+              <p class="product-description">Large-format slab with refined slate surface and warm grey undertones.</p>
+            </div>
+          </a>
+          
+          <a href="shop.html" class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Featured</span>
+              <h3 class="product-title">Noir Brassware Set</h3>
+              <p class="product-price">$1,980</p>
+              <p class="product-description">Low-profile matte black fixtures with tactile lever and sculpted spout.</p>
+            </div>
+          </a>
+          
+          <a href="shop.html" class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Product">
+            </div>
+            <div class="product-info">
+              <span class="product-label">Featured</span>
+              <h3 class="product-title">Plaster Velvet Wall</h3>
+              <p class="product-price">$165 / m²</p>
+              <p class="product-description">Soft tactile plaster with suede-like surface and subtle colour depth.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Why Choose Us -->
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div class="grid gap-8 grid-cols-3">
+          <div>
+            <p class="hero-label">Why choose us</p>
+            <h2 style="margin-top: 1rem;">Premium materials & expert curation</h2>
+          </div>
+          
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-white">Curated Collections</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">Handpicked materials and finishes for contemporary luxury interiors.</p>
+            </div>
+            <div>
+              <h3 class="text-white">Expert Support</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">Design consultation and specification support for your projects.</p>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-white">Premium Quality</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">All products are vetted for durability and aesthetic excellence.</p>
+            </div>
+            <div>
+              <h3 class="text-white">Trade Program</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.875rem; color: rgba(217, 210, 195, 0.7);">Special pricing and support for design professionals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="py-20">
+      <div class="section-wrapper">
+        <div style="grid-template-columns: 1fr 1fr; display: grid; gap: 3rem; align-items: end;">
+          <div>
+            <p class="hero-label">Client feedback</p>
+            <h2 style="margin-top: 1rem;">Trusted by architects and interior designers.</h2>
+          </div>
+          
+          <div class="space-y-6">
+            <div style="padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); background: rgba(255, 255, 255, 0.05);">
+              <p style="font-style: italic; color: rgba(217, 210, 195, 0.8);">"The quality and selection at Maison Atelier has transformed how we approach material selection. A truly premium experience."</p>
+              <p style="margin-top: 1rem; font-weight: 600; color: white;">— Sarah Mitchell, Architect</p>
+            </div>
+            
+            <div style="padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); background: rgba(255, 255, 255, 0.05);">
+              <p style="font-style: italic; color: rgba(217, 210, 195, 0.8);">"Exceptional finishes and world-class service. Our clients always ask where we source our materials."</p>
+              <p style="margin-top: 1rem; font-weight: 600; color: white;">— James Rodriguez, Interior Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="py-20" style="background: rgba(222, 169, 47, 0.08); border-radius: 2rem;">
+      <div class="section-wrapper">
+        <div style="max-width: 36rem; margin: 0 auto; text-align: center;">
+          <h2 style="color: white;">Stay in the loop</h2>
+          <p style="margin-top: 1rem; color: rgba(217, 210, 195, 0.7); line-height: 1.75;">
+            Subscribe to our newsletter for new collections, design inspiration and exclusive trade updates.
+          </p>
+          
+          <form style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.875rem 1.25rem; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: white; font-size: 0.875rem;">
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="section-wrapper">
+      <div class="footer-content">
+        <div class="footer-main">
+          <p class="hero-label">Maison Atelier</p>
+          <h2>Luxury interiors, material direction and trade support for visionary spaces.</h2>
+          <p>Founded to deliver considered interiors for residential architecture, boutique hospitality and high-end product environments.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>hello@maisonatelier.design</p>
+            <p>+61 2 8000 1234</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Navigate</h3>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="projects.html">Projects</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="trade.html">Trade Program</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Maison Atelier. All rights reserved.</p>
+        <p>Designed for premium interiors, materials and architectural finishes.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="../js/main.js"></script>
+</body>
+</html>
